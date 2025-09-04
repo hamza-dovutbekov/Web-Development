@@ -1,0 +1,47 @@
+body{
+    background-color: azure;
+}
+header{
+    margin-bottom: 36px;
+}
+ol {
+    list-style: none;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0px;
+}
+#description{
+    margin: 36px;
+}
+a {
+    padding: 12px 24px;
+    background-color: rgb(180, 19, 140);
+    color: white;
+    border-radius: 6px;
+}
+ol{
+    list-style: none;
+    width: 500px;
+    margin: 0px auto 36px auto;
+    padding: 1px 0px 0px;
+}
+li{
+    padding: 15px;
+    margin: 40px 32px 32px 32px;
+    background-color: rgb(233, 136, 124);
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0.3);
+}
+h2{
+    color: rgb(71, 29, 22);
+}
+
+p{
+    color: rgb(71, 29, 22);
+    font-size: 24px;
+}
+.highlight-goal{
+    background-color: rgb(226, );
+}
