@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+color: black;
+font-weight: 550;
+text-decoration: none;
+}
+
+header{
+  height: 60px;
+  background-color: #806bdc;
+  text-align: center;
+}
+
+.NavBar{
+  padding-top: 18px;
+}
+
+#navbar-title{
+  color: white;
+  font-size: 25px;
+}
