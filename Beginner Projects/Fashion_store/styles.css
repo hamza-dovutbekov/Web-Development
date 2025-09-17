@@ -11,7 +11,7 @@ text-decoration: none;
 
 header{
   height: 60px;
-  background-color: #806bdc;
+  background-color: #f7de8f;
   text-align: center;
 }
 
@@ -24,7 +24,22 @@ header{
   font-size: 25px;
 }
 
-.items{
+.Items{
   padding-bottom: 15px;
   padding-top: 15px;
 }
+
+#item-table{
+    width: 100%;
+    text-align: center;
+}
+
+.Item-img{
+    height: 64px;
+}
+
+.Item-tag{
+  font-size: 14px;
+}
+
+.Item-tag:hover{ color: #806BDC; }
