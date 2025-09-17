@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Forms</title>
+    <!--Fira Sans font family embedded code-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <!-- Our Page style path-->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>Contact Us</h1>
+    
+    <main>
+        <form action="" method="post">
+        <section>
+            <h2>How can we help you?</h2>
+            <ul>
+                <!--User name-->
+                <li>
+                    <label>Your name</label>
+                    <input type="text" name="user_name" placeholder="John MCArtur">
+                </li>
+                 <!--User email-->
+                <li>
+                    <label>Your email </label>
+                    <input type="email" name="user_email" placeholder="John@gmail.com">
+                </li>
+                <!--User phone number-->
+                <li>
+                    <label>Your email </label>
+                    <input type="number" name="user_phone" placeholder="+352xxxxxxxx">
+                </li>
+            </ul>
+        </section>
+        
+        <section>
+            <label for="user_message">Your message</label>
+           <textarea name="user_message" id="" cols="30" rows="10"></textarea>
+        </section>
+
+        <section>
+            <label for="find_us">How did you find us?</label>
+            <select name="find_us" id="">
+                <option value="">Facebook</option>
+                <option value="">Web Search</option>
+                <option value="">Instagram</option>
+                <option value="">Other</option>
+            </select>    
+        </section>
+
+        <section>
+            <h2>How should we reply?</h2>
+            <ul>
+                <li class="form-control-inline">
+                    <input type="radio">
+                    <label for="">Call Me</label>
+                </li>
+
+                <li class="form-control-inline">
+                    <input type="radio">
+                    <label for="">Send me an Email</label>
+                </li>
+
+                <li class="form-control-inline">
+                    <input type="radio">
+                    <label for="">Dont't reply</label>
+                </li>
+            </ul>
+        </section>
+        <hr>
+
+        <section class="form-control-inline">
+            <input type="checkbox">
+            <label for="">Agree to terms?</label>
+        </section>
+
+        <section id="btns">
+        <!--
+           <input type="submit" name="" id="btnSubmit" value="Submit">
+            <input type="reset" id="btnClear" value="Clear">  
+        -->
+            <button type="reset" id="btnClear">Clear</button>
+            <button type="submit" id="btnSubmit">Submit</button>
+        </section>
+        </form>
+    </main>
+    
+</body>
+</html>
